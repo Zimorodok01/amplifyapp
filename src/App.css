@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main{
+  width: 80%;
+}
+
+.cityName {
+  width: fit-content;
+  height: 50px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.main__temp {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+}
+
+.form__btn {
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  background-color: #4670fa;
+  color: #fff;
+  padding: 0 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.form__input {
+  border: 1px solid #3ab6ba;
+  border-radius: 10px;
+  outline: none;
+  height: 30px;
+  font-size: 15px;
+}
+
+.statistic {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.weathernow {
+  display: flex;
+  align-items: center;
+}
+
+.weatherday {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.weatherday__inner {
+  width: calc(100% - 10px);
+  margin: 10px;
+  text-align: center;
+}
+
+.weatherday__mintemp {
+  color: #8c8c8c;
+}
+
+.weatherday__inner:first-child {
+  background-color: #e6e6e6;
+  border-radius: 10px;
+}
+
+.weatherday__inner:hover {
+  background-color: #f5f0e1;
+  border-radius: 10px;
+}
+
+.weatherday__active {
+  background-color: #e6e6e6;
+  border-radius: 10px;
+}
